@@ -1,0 +1,136 @@
+/* CSS Document */
+body, h1, h2, h3, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url('../img/page_bg.jpg') repeat top left;
+    background-color: #888; /* Fallback for transparency */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+#container {
+	width: 900px;
+	margin: 10px auto;
+	background-color: #ffffff;
+    border: 5px solid #ffffff;
+}
+
+#header {
+	background: url('../img/header.jpg') no-repeat top left;
+    background-size: cover;
+	height: 156px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+	padding: 30px 20px 0 30px;
+}
+
+#header h1 {
+	font-size: 32px;
+	margin-bottom: 5px;
+    color: #ffffff;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#header h2 {
+	font-size: 16px;
+    color: #eec06b; /* Gold/Yellow */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#content {
+    background-color: #eec06b; /* Sidebar color as main wrapper background for faux */
+}
+
+#left {
+    float: left;
+    width: 610px; /* Adjusting for padding */
+    background-color: #f3eebb;
+    padding: 20px 30px;
+    border-right: 1px dashed #996e45; 
+    min-height: 500px;
+}
+
+#left h3 {
+	color: #a55613; /* Rust/Brown */
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+#left h3:first-child {
+    margin-top: 0;
+}
+
+#left p {
+	line-height: 1.5;
+	margin-bottom: 15px;
+    color: #333;
+}
+
+#right {
+    float: right;
+    width: 229px; /* Remaining space */
+    background-color: #eec06b;
+    padding: 0;
+}
+
+#right h3 {
+    background-color: #4a5c37; /* Dark olive/brown box */
+    color: #ffffff;
+    padding: 5px 10px;
+    margin: 20px 10px 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#right p {
+    margin: 10px 20px 5px 20px;
+    color: #554433; /* Brownish text */
+    font-size: 14px;
+}
+
+#right ul {
+	list-style-type: square;
+	margin-left: 40px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#right ul li {
+	padding: 2px 0;
+}
+
+#right ul li a {
+	text-decoration: underline;
+	color: #0033cc;
+    font-size: 12px;
+}
+
+#right ul li a:hover {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+#footer {
+	background: url('../img/footer.jpg') no-repeat top center;
+    background-size: cover;
+	height: 70px;
+    width: 100%;
+	text-align: center;
+	line-height: 70px;
+	color: #fff;
+	font-size: 12px;
+	clear: both;
+    font-weight: bold;
+}
